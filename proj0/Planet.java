@@ -98,7 +98,7 @@ public void update(double dt, double fx, double fy) {
     xxPos = xxPos + dt * xxVel;
     yyPos = yyPos + dt * yyVel;
 }
-
+// draw palnets
 public void draw() {
     String imageToDraw = "images/" + imgFileName;      
     StdDraw.picture(this.xxPos, this.yyPos, imageToDraw);
